@@ -198,3 +198,8 @@ void loop() {
   delay(100);
 }
 ```
+
+## Wichtige Funktionen
+- `delay(1000);` Pausiert das Programm für 1 Sekunde.
+- `Serial.begin(9600);` Startet die serielle Kommunikation mit 9600 Baud.  
+- `if (WertDEZ == "153 21 213 185 " && digitalRead(led_green) == HIGH) {}` Überprüft, ob WertDEZ exakt "153 21 213 185 " entspricht und ob led_green auf HIGH steht.
