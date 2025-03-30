@@ -1,5 +1,7 @@
 # Arduino Code
-Diese Datei enthält den Code für alle für den Arduino relevanten Sensoren und Aktoren.
+Diese Datei enthält den Code für alle für den [Arduino] relevanten Sensoren und Aktoren.
+
+[Arduino]: https://www.arduino.cc/
 
 ## Servomotor
 ```cpp
