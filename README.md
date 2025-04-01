@@ -199,6 +199,27 @@ void loop() {
 }
 ```
 
+## LDR
+```cpp
+int LDR = A0;
+
+void setup() {
+  pinMode(LDR, INPUT);
+  Serial.begin(9600);
+
+}
+
+void loop() {
+  int SensorWert = analogRead(LDR);
+ 
+  Serial.println(SensorWert);
+  
+  // constant value ~200
+  // darkness value ~ 500
+  // light value ~ 30
+}
+```
+
 ## Wichtige Funktionen
 - `delay(1000);` Pausiert das Programm für 1 Sekunde.
 - `Serial.begin(9600);` Startet die serielle Kommunikation mit 9600 Baud.  
