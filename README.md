@@ -205,6 +205,7 @@ void loop() {
   delay(100);
 }
 ```
+![Bild UL](UL.jpg)
 
 ## LDR
 ```cpp
@@ -226,6 +227,7 @@ void loop() {
   // light value ~ 30
 }
 ```
+![Bild LDR](LDR.jpg)
 
 ## Wichtige Funktionen
 - `delay(1000);` Pausiert das Programm für 1 Sekunde.
