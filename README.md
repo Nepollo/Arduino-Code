@@ -20,7 +20,7 @@ void loop() {
   Servomotor.write(servo_min);
 }
 ```
-![alt text]([http://url/to/img.png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5OpzRzpjBYUNRtdA4Gl6OSJ1SCB4-appOcg&s))
+
 
 ## LED
 ```cpp
