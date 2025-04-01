@@ -20,6 +20,7 @@ void loop() {
   Servomotor.write(servo_min);
 }
 ```
+![Bild Servomotor](servo.png)
 
 
 ## LED
