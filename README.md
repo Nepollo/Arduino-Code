@@ -42,6 +42,7 @@ void loop() {
   delay(1000);
 }
 ```
+![Bild LED](LED.png)
 
 ## Taster
 ```cpp
@@ -59,6 +60,7 @@ void loop() {
   }
 }
 ```
+![Bild Taster](Taster.png)
 
 ## Schalter
 ```cpp
@@ -89,6 +91,7 @@ bool isEven(int num) {
   return num % 2 == 0; // Zahl gerade -> True
 }
 ```
+![Bild Schalter](Taster.png)
 
 ## RFID Toggle
 ```cpp
@@ -124,6 +127,7 @@ void loop() {
   }
 }
 ```
+![Bild RFID Toggle](RFID.png)
 
 ## RFID ON / OFF
 ```cpp
@@ -172,6 +176,7 @@ bool isEven(int num) {
   return num % 2 == 0; // Zahl gerade -> True
 }
 ```
+![Bild RFID ON / OFF](RFID.png)
 
 ## Ultraschallsensor
 ```cpp
