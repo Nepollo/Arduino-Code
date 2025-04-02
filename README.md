@@ -180,29 +180,29 @@ bool isEven(int num) {
 
 ## Ultraschallsensor
 ```cpp
-const int ul_trig = 9;
-const int ul_echo = 10;
-
-float duration, distance;
+const int TRIG = 9;
+const int ECHO = 8;
+long Entfernung = 0;
 
 void setup() {
-  pinMode(ul_trig, OUTPUT);
-  pinMode(ul_echo, INPUT);
+  pinMode(TRIG, OUTPUT);
+  pinMode(ECHO, INPUT);
   Serial.begin(9600);
+
 }
 
 void loop() {
-  digitalWrite(ul_trig, LOW);
-  delayMicroseconds(2);
-  digitalWrite(ul_trig, HIGH);
+  digitalWrite(TRIG, LOW);
+  delay(5);
+  digitalWrite(TRIG, HIGH);
   delayMicroseconds(10);
-  digitalWrite(ul_trig, LOW);
+  digitalWrite(TRIG, LOW);
+  long Zeit = pulseIn(ECHO, HIGH);
+  Entfernung = (Zeit / 2) * 0.03432;
+  delay(200);
 
-  duration = pulseIn(ul_echo, HIGH);
-  distance = (duration*.0343)/2;
-  Serial.print("Distance: ");
-  Serial.println(distance);
-  delay(100);
+  Serial.print("Entfernung in cm: ");
+  Serial.println(Entfernung);
 }
 ```
 ![Bild UL](UL.jpg)
