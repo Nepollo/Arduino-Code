@@ -80,10 +80,10 @@ void loop() {
 
   if (isEven(taster_status)) {
     // Wird zuerst Ausgeführt
-    Serial.println("Die Zahl ist gerade.");
+    Serial.println("Die Schalter Zahl ist gerade.");
   } else {
     // Wird nach Taster-Druck Ausgeführt
-    Serial.println("Die Zahl ist ungerade.");
+    Serial.println("Die Schalter Zahl ist ungerade.");
   }
 }
 
@@ -165,10 +165,10 @@ void loop() {
 
   if (isEven(rfid_status)) {
     // Wird zuerst Ausgeführt
-    Serial.println("Die Zahl ist gerade.");
+    Serial.println("Die RFID Zahl ist gerade.");
   } else {
     // Wird nach Taster-Druck Ausgeführt
-    Serial.println("Die Zahl ist ungerade.");
+    Serial.println("Die RFID Zahl ist ungerade.");
   }
 }
 
